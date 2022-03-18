@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main (int argc, char const *argv[]){
-  int *p = malloc(sizeof(int)); //aqui ele aloca em tempo de execução, não precisa dizer qual vai ser o valor o próprio C vai entender. (alocando memória)
+  int *p = malloc(sizeof(int)); //aqui ele aloca em tempo de execução, não precisa dizer qual vai ser o valor, o próprio C vai entender. (alocando memória)
 
   printf("digite um valor: \n");
   scanf("%d", p);
